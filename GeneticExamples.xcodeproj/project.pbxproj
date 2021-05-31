@@ -50,6 +50,7 @@
 		D255529526648A7C0049A82C /* NthLetterGuess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NthLetterGuess.swift; sourceTree = "<group>"; };
 		D255529726648B030049A82C /* PopulationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationTableViewController.swift; sourceTree = "<group>"; };
 		D255529926648B270049A82C /* GeneticTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticTableViewCell.swift; sourceTree = "<group>"; };
+		D255529B266493560049A82C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +120,7 @@
 				D255526E266078C00049A82C /* SceneDelegate.swift */,
 				D2555275266078C30049A82C /* Assets.xcassets */,
 				D255527A266078C30049A82C /* Info.plist */,
+				D255529B266493560049A82C /* README.md */,
 			);
 			path = NthLetterGuess;
 			sourceTree = "<group>";
@@ -434,16 +436,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = PF5SG3LUHB;
 				INFOPLIST_FILE = NthLetterGuess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.loniello.NthLetterGuess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,16 +457,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = PF5SG3LUHB;
 				INFOPLIST_FILE = NthLetterGuess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.loniello.NthLetterGuess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
