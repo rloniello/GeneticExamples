@@ -3,34 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D25552362660722E0049A82C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25552352660722E0049A82C /* AppDelegate.swift */; };
-		D25552382660722E0049A82C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25552372660722E0049A82C /* SceneDelegate.swift */; };
-		D255523A2660722E0049A82C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25552392660722E0049A82C /* ViewController.swift */; };
-		D255523D2660722E0049A82C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D255523B2660722E0049A82C /* Main.storyboard */; };
-		D255523F266072320049A82C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D255523E266072320049A82C /* Assets.xcassets */; };
-		D2555242266072320049A82C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2555240266072320049A82C /* LaunchScreen.storyboard */; };
+		D25552652660788E0049A82C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25552642660788E0049A82C /* main.swift */; };
+		D255526D266078C00049A82C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255526C266078C00049A82C /* AppDelegate.swift */; };
+		D255526F266078C00049A82C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255526E266078C00049A82C /* SceneDelegate.swift */; };
+		D2555276266078C30049A82C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2555275266078C30049A82C /* Assets.xcassets */; };
+		D25552852660794E0049A82C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25552842660794E0049A82C /* MainViewController.swift */; };
+		D255528726607A240049A82C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D255528626607A240049A82C /* Launch Screen.storyboard */; };
+		D255528926607A310049A82C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D255528826607A310049A82C /* Main.storyboard */; };
+		D255528C26607A7E0049A82C /* Genetics in Frameworks */ = {isa = PBXBuildFile; productRef = D255528B26607A7E0049A82C /* Genetics */; };
+		D255528F26607A890049A82C /* Genetics in Frameworks */ = {isa = PBXBuildFile; productRef = D255528E26607A890049A82C /* Genetics */; };
+		D255529226607AD60049A82C /* Seeker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255529126607AD60049A82C /* Seeker.swift */; };
+		D255529626648A7C0049A82C /* NthLetterGuess.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255529526648A7C0049A82C /* NthLetterGuess.swift */; };
+		D255529826648B030049A82C /* PopulationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255529726648B030049A82C /* PopulationTableViewController.swift */; };
+		D255529A26648B270049A82C /* GeneticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255529926648B270049A82C /* GeneticTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D255525B266078710049A82C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		D25552322660722E0049A82C /* GeneticExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneticExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D25552352660722E0049A82C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D25552372660722E0049A82C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D25552392660722E0049A82C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D255523C2660722E0049A82C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D255523E266072320049A82C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2555241266072320049A82C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D2555243266072320049A82C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D255524C2660730D0049A82C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D255525D266078710049A82C /* TruthSeekers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TruthSeekers; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25552642660788E0049A82C /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../../../.Trash/main.swift; sourceTree = "<group>"; };
+		D255526A266078C00049A82C /* NthLetterGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NthLetterGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D255526C266078C00049A82C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D255526E266078C00049A82C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D2555275266078C30049A82C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D255527A266078C30049A82C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D25552842660794E0049A82C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D255528626607A240049A82C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D255528826607A310049A82C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D255529126607AD60049A82C /* Seeker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seeker.swift; sourceTree = "<group>"; };
+		D255529526648A7C0049A82C /* NthLetterGuess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NthLetterGuess.swift; sourceTree = "<group>"; };
+		D255529726648B030049A82C /* PopulationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationTableViewController.swift; sourceTree = "<group>"; };
+		D255529926648B270049A82C /* GeneticTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D255522F2660722E0049A82C /* Frameworks */ = {
+		D255525A266078710049A82C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D255528F26607A890049A82C /* Genetics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2555267266078C00049A82C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D255528C26607A7E0049A82C /* Genetics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,15 +75,20 @@
 		D25552292660722E0049A82C = {
 			isa = PBXGroup;
 			children = (
+				D255524C2660730D0049A82C /* README.md */,
 				D25552342660722E0049A82C /* GeneticExamples */,
+				D255525E266078710049A82C /* TruthSeekers */,
+				D255526B266078C00049A82C /* NthLetterGuess */,
 				D25552332660722E0049A82C /* Products */,
+				D255528D26607A890049A82C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		D25552332660722E0049A82C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D25552322660722E0049A82C /* GeneticExamples.app */,
+				D255525D266078710049A82C /* TruthSeekers */,
+				D255526A266078C00049A82C /* NthLetterGuess.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,35 +96,116 @@
 		D25552342660722E0049A82C /* GeneticExamples */ = {
 			isa = PBXGroup;
 			children = (
-				D25552352660722E0049A82C /* AppDelegate.swift */,
-				D25552372660722E0049A82C /* SceneDelegate.swift */,
-				D25552392660722E0049A82C /* ViewController.swift */,
-				D255523B2660722E0049A82C /* Main.storyboard */,
-				D255523E266072320049A82C /* Assets.xcassets */,
-				D2555240266072320049A82C /* LaunchScreen.storyboard */,
-				D2555243266072320049A82C /* Info.plist */,
 			);
 			path = GeneticExamples;
+			sourceTree = "<group>";
+		};
+		D255525E266078710049A82C /* TruthSeekers */ = {
+			isa = PBXGroup;
+			children = (
+				D255529026607AC20049A82C /* Models */,
+				D25552642660788E0049A82C /* main.swift */,
+			);
+			path = TruthSeekers;
+			sourceTree = "<group>";
+		};
+		D255526B266078C00049A82C /* NthLetterGuess */ = {
+			isa = PBXGroup;
+			children = (
+				D2555283266079350049A82C /* Models */,
+				D25552822660792E0049A82C /* Views */,
+				D2555281266079200049A82C /* Controllers */,
+				D255526C266078C00049A82C /* AppDelegate.swift */,
+				D255526E266078C00049A82C /* SceneDelegate.swift */,
+				D2555275266078C30049A82C /* Assets.xcassets */,
+				D255527A266078C30049A82C /* Info.plist */,
+			);
+			path = NthLetterGuess;
+			sourceTree = "<group>";
+		};
+		D2555281266079200049A82C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D25552842660794E0049A82C /* MainViewController.swift */,
+				D255529726648B030049A82C /* PopulationTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D25552822660792E0049A82C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D255528626607A240049A82C /* Launch Screen.storyboard */,
+				D255528826607A310049A82C /* Main.storyboard */,
+				D255529926648B270049A82C /* GeneticTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D2555283266079350049A82C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D255529526648A7C0049A82C /* NthLetterGuess.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D255528D26607A890049A82C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D255529026607AC20049A82C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D255529126607AD60049A82C /* Seeker.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D25552312660722E0049A82C /* GeneticExamples */ = {
+		D255525C266078710049A82C /* TruthSeekers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2555246266072320049A82C /* Build configuration list for PBXNativeTarget "GeneticExamples" */;
+			buildConfigurationList = D2555261266078710049A82C /* Build configuration list for PBXNativeTarget "TruthSeekers" */;
 			buildPhases = (
-				D255522E2660722E0049A82C /* Sources */,
-				D255522F2660722E0049A82C /* Frameworks */,
-				D25552302660722E0049A82C /* Resources */,
+				D2555259266078710049A82C /* Sources */,
+				D255525A266078710049A82C /* Frameworks */,
+				D255525B266078710049A82C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GeneticExamples;
-			productName = GeneticExamples;
-			productReference = D25552322660722E0049A82C /* GeneticExamples.app */;
+			name = TruthSeekers;
+			packageProductDependencies = (
+				D255528E26607A890049A82C /* Genetics */,
+			);
+			productName = TruthSeekers;
+			productReference = D255525D266078710049A82C /* TruthSeekers */;
+			productType = "com.apple.product-type.tool";
+		};
+		D2555269266078C00049A82C /* NthLetterGuess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D255527B266078C30049A82C /* Build configuration list for PBXNativeTarget "NthLetterGuess" */;
+			buildPhases = (
+				D2555266266078C00049A82C /* Sources */,
+				D2555267266078C00049A82C /* Frameworks */,
+				D2555268266078C00049A82C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NthLetterGuess;
+			packageProductDependencies = (
+				D255528B26607A7E0049A82C /* Genetics */,
+			);
+			productName = NthLetterGuess;
+			productReference = D255526A266078C00049A82C /* NthLetterGuess.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +217,10 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					D25552312660722E0049A82C = {
+					D255525C266078710049A82C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					D2555269266078C00049A82C = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -110,59 +234,56 @@
 				Base,
 			);
 			mainGroup = D25552292660722E0049A82C;
+			packageReferences = (
+				D255528A26607A7E0049A82C /* XCRemoteSwiftPackageReference "Genetics" */,
+			);
 			productRefGroup = D25552332660722E0049A82C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D25552312660722E0049A82C /* GeneticExamples */,
+				D255525C266078710049A82C /* TruthSeekers */,
+				D2555269266078C00049A82C /* NthLetterGuess */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D25552302660722E0049A82C /* Resources */ = {
+		D2555268266078C00049A82C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2555242266072320049A82C /* LaunchScreen.storyboard in Resources */,
-				D255523F266072320049A82C /* Assets.xcassets in Resources */,
-				D255523D2660722E0049A82C /* Main.storyboard in Resources */,
+				D255528926607A310049A82C /* Main.storyboard in Resources */,
+				D255528726607A240049A82C /* Launch Screen.storyboard in Resources */,
+				D2555276266078C30049A82C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D255522E2660722E0049A82C /* Sources */ = {
+		D2555259266078710049A82C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D255523A2660722E0049A82C /* ViewController.swift in Sources */,
-				D25552362660722E0049A82C /* AppDelegate.swift in Sources */,
-				D25552382660722E0049A82C /* SceneDelegate.swift in Sources */,
+				D255529226607AD60049A82C /* Seeker.swift in Sources */,
+				D25552652660788E0049A82C /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2555266266078C00049A82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D255529626648A7C0049A82C /* NthLetterGuess.swift in Sources */,
+				D255529A26648B270049A82C /* GeneticTableViewCell.swift in Sources */,
+				D25552852660794E0049A82C /* MainViewController.swift in Sources */,
+				D255526D266078C00049A82C /* AppDelegate.swift in Sources */,
+				D255529826648B030049A82C /* PopulationTableViewController.swift in Sources */,
+				D255526F266078C00049A82C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D255523B2660722E0049A82C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D255523C2660722E0049A82C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D2555240266072320049A82C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2555241266072320049A82C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D2555244266072320049A82C /* Debug */ = {
@@ -281,38 +402,64 @@
 			};
 			name = Release;
 		};
-		D2555247266072320049A82C /* Debug */ = {
+		D2555262266078710049A82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PF5SG3LUHB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2555263266078710049A82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PF5SG3LUHB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D255527C266078C30049A82C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PF5SG3LUHB;
-				INFOPLIST_FILE = GeneticExamples/Info.plist;
+				INFOPLIST_FILE = NthLetterGuess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.loniello.GeneticExamples;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loniello.NthLetterGuess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D2555248266072320049A82C /* Release */ = {
+		D255527D266078C30049A82C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PF5SG3LUHB;
-				INFOPLIST_FILE = GeneticExamples/Info.plist;
+				INFOPLIST_FILE = NthLetterGuess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.loniello.GeneticExamples;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loniello.NthLetterGuess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -331,16 +478,49 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2555246266072320049A82C /* Build configuration list for PBXNativeTarget "GeneticExamples" */ = {
+		D2555261266078710049A82C /* Build configuration list for PBXNativeTarget "TruthSeekers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2555247266072320049A82C /* Debug */,
-				D2555248266072320049A82C /* Release */,
+				D2555262266078710049A82C /* Debug */,
+				D2555263266078710049A82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D255527B266078C30049A82C /* Build configuration list for PBXNativeTarget "NthLetterGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D255527C266078C30049A82C /* Debug */,
+				D255527D266078C30049A82C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D255528A26607A7E0049A82C /* XCRemoteSwiftPackageReference "Genetics" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rloniello/Genetics.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D255528B26607A7E0049A82C /* Genetics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D255528A26607A7E0049A82C /* XCRemoteSwiftPackageReference "Genetics" */;
+			productName = Genetics;
+		};
+		D255528E26607A890049A82C /* Genetics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D255528A26607A7E0049A82C /* XCRemoteSwiftPackageReference "Genetics" */;
+			productName = Genetics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D255522A2660722E0049A82C /* Project object */;
 }
