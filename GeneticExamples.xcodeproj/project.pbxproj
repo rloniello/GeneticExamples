@@ -51,6 +51,7 @@
 		D255529726648B030049A82C /* PopulationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationTableViewController.swift; sourceTree = "<group>"; };
 		D255529926648B270049A82C /* GeneticTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticTableViewCell.swift; sourceTree = "<group>"; };
 		D255529B266493560049A82C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D255529C266499FA0049A82C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +107,7 @@
 			children = (
 				D255529026607AC20049A82C /* Models */,
 				D25552642660788E0049A82C /* main.swift */,
+				D255529C266499FA0049A82C /* README.md */,
 			);
 			path = TruthSeekers;
 			sourceTree = "<group>";
