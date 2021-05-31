@@ -52,6 +52,7 @@
 		D255529926648B270049A82C /* GeneticTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticTableViewCell.swift; sourceTree = "<group>"; };
 		D255529B266493560049A82C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D255529C266499FA0049A82C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D255529D2664B7A50049A82C /* License.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = License.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		D25552292660722E0049A82C = {
 			isa = PBXGroup;
 			children = (
+				D255529D2664B7A50049A82C /* License.md */,
 				D255524C2660730D0049A82C /* README.md */,
 				D25552342660722E0049A82C /* GeneticExamples */,
 				D255525E266078710049A82C /* TruthSeekers */,
