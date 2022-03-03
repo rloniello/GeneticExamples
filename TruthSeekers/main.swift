@@ -30,7 +30,7 @@ let calculateFitness: GeneticOperation = { population in
     for (index, member) in population.enumerated() {
         var totalFitness:Double = 0.0
         for trait in member.chromosome {
-            totalFitness += Double(trait.value as? Int ?? 0) / 16.0
+            totalFitness += Double(trait.value as? Int ?? 0) / 20.0
         }
         population[index].fitness = totalFitness
     }
