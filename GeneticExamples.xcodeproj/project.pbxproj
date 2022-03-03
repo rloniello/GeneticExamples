@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D25552652660788E0049A82C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25552642660788E0049A82C /* main.swift */; };
+		D253A89C27D142C4008211D9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253A89B27D142C4008211D9 /* main.swift */; };
 		D255526D266078C00049A82C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255526C266078C00049A82C /* AppDelegate.swift */; };
 		D255526F266078C00049A82C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255526E266078C00049A82C /* SceneDelegate.swift */; };
 		D2555276266078C30049A82C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2555275266078C30049A82C /* Assets.xcassets */; };
@@ -35,9 +35,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D253A89B27D142C4008211D9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D255524C2660730D0049A82C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D255525D266078710049A82C /* TruthSeekers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TruthSeekers; sourceTree = BUILT_PRODUCTS_DIR; };
-		D25552642660788E0049A82C /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../../../.Trash/main.swift; sourceTree = "<group>"; };
 		D255526A266078C00049A82C /* NthLetterGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NthLetterGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D255526C266078C00049A82C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D255526E266078C00049A82C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,7 +80,6 @@
 			children = (
 				D255529D2664B7A50049A82C /* License.md */,
 				D255524C2660730D0049A82C /* README.md */,
-				D25552342660722E0049A82C /* GeneticExamples */,
 				D255525E266078710049A82C /* TruthSeekers */,
 				D255526B266078C00049A82C /* NthLetterGuess */,
 				D25552332660722E0049A82C /* Products */,
@@ -97,18 +96,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D25552342660722E0049A82C /* GeneticExamples */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = GeneticExamples;
-			sourceTree = "<group>";
-		};
 		D255525E266078710049A82C /* TruthSeekers */ = {
 			isa = PBXGroup;
 			children = (
 				D255529026607AC20049A82C /* Models */,
-				D25552642660788E0049A82C /* main.swift */,
+				D253A89B27D142C4008211D9 /* main.swift */,
 				D255529C266499FA0049A82C /* README.md */,
 			);
 			path = TruthSeekers;
@@ -272,7 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D255529226607AD60049A82C /* Seeker.swift in Sources */,
-				D25552652660788E0049A82C /* main.swift in Sources */,
+				D253A89C27D142C4008211D9 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
