@@ -22,5 +22,5 @@ This project also describes how decimal values (Float / Double) can be used as p
 This project shows how to implement a character-based chromosome to find a solution matching the user's input.
 Fitness is calculated by the Hamming Distance to a target string. 
 It is quite common to encode chromosomes into characters that represent features of the organism. 
-![Screenshot of NthLetterGuess](Documentation/NthLetterGuess.png)
-![Screenshot of Population](Documentation/SwiftIsCool.png)
+![Screenshot of NthLetterGuess](Documentation/NthLetterGuess.png | width=200)
+![Screenshot of Population](Documentation/SwiftIsCool.png | width=200)
