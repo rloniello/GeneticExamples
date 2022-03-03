@@ -30,7 +30,7 @@ let calculateFitness: GeneticOperation = { population in
     for (index, member) in population.enumerated() {
         var totalFitness:Double = 0.0
         for trait in member.chromosome {
-            totalFitness += Double(trait.value as? Int ?? 0) / 20.0
+            totalFitness += Double(trait.value as? Int ?? 0) / Double(Seeker.genome.count)
         }
         population[index].fitness = totalFitness
     }
@@ -51,7 +51,7 @@ let pauseOperation: GeneticOperation = { population in
     guard let mostFit = population.first as? Seeker else  { return }
     // Update the UI or perform other tasks...
     print("Generation \(naturalEnviroment!.currentIteration)")
-    print("Most Fit: \(mostFit.printChromosome()) : \(mostFit.fitness)")
+    print("Most Fit: \(mostFit.printChromosome()) : \(String(format: "%.3f",mostFit.fitness)) ")
     // like check to see if the GA has reach an optimal solution.
     if (mostFit.fitness >= 1.0) {
         naturalEnviroment?.stop()
@@ -60,7 +60,7 @@ let pauseOperation: GeneticOperation = { population in
 
 // MARK: Step 5
 // Define a natural enviroment to run your operations on a population of your objects.
-// By default, Populations will initalize with 1000 members.
+// By default, Populations will initalize with 1000 members with random chromosomes.
 let operations = [calculateFitness, pauseOperation, selectionMethod, mutationMethod]
 naturalEnviroment = NaturalEnvironment(for: Seeker.self, operations: operations)
 

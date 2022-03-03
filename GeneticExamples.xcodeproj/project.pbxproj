@@ -36,6 +36,9 @@
 
 /* Begin PBXFileReference section */
 		D253A89B27D142C4008211D9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D253A89E27D14BBE008211D9 /* TruthSeekers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TruthSeekers.png; sourceTree = "<group>"; };
+		D253A89F27D14DF0008211D9 /* NthLetterGuess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NthLetterGuess.png; sourceTree = "<group>"; };
+		D253A8A027D1504F008211D9 /* SwiftIsCool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwiftIsCool.png; sourceTree = "<group>"; };
 		D255524C2660730D0049A82C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D255525D266078710049A82C /* TruthSeekers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TruthSeekers; sourceTree = BUILT_PRODUCTS_DIR; };
 		D255526A266078C00049A82C /* NthLetterGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NthLetterGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,9 +78,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D253A89D27D14B93008211D9 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				D253A89F27D14DF0008211D9 /* NthLetterGuess.png */,
+				D253A89E27D14BBE008211D9 /* TruthSeekers.png */,
+				D253A8A027D1504F008211D9 /* SwiftIsCool.png */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
 		D25552292660722E0049A82C = {
 			isa = PBXGroup;
 			children = (
+				D253A89D27D14B93008211D9 /* Documentation */,
 				D255529D2664B7A50049A82C /* License.md */,
 				D255524C2660730D0049A82C /* README.md */,
 				D255525E266078710049A82C /* TruthSeekers */,
